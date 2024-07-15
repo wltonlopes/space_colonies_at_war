@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Ap1">
+      <mesh>structural/Apartment_lvl1_1.dae</mesh>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Ap2">
+      <mesh>structural/Apartment_lvl1_2.dae</mesh>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Ap3">
+      <mesh>structural/Apartment_lvl1_3.dae</mesh>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Ap4">
+      <mesh>structural/Apartment_lvl1_4.dae</mesh>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

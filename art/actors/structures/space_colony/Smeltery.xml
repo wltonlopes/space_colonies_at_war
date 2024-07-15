@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>structural/Smeltery.dae</mesh>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

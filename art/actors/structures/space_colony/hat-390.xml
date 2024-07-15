@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="1" name="hat-390">
+      <mesh>structural/hat-390.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/hat-390_g.xml" attachpoint="root"/>
+       </props>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="1" name="if_420">
+      <mesh>structural/if-420.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/if-420_g.xml" attachpoint="root"/>
+       </props>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
