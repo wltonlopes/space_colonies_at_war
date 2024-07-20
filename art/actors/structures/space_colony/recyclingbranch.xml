@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Glider-360_A">
-      <mesh>structural/SatelliteDish.dae</mesh>
+      <mesh>structural/recyclingbranch.dae</mesh>
       <textures>
         <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
         <texture file="structural/sc_struct_spec.png" name="specTex"/>

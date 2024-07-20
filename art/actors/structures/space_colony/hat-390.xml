@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<actor version="1">
+  <actor version="1">
+ <castshadow/>
   <group>
     <variant frequency="1" name="hat-390">
       <mesh>structural/hat-390.dae</mesh>
@@ -8,8 +9,10 @@
        </props>
       <textures>
         <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+        <texture file="structural/sc_struct_spec.png" name="specTex"/>
+        <texture file="structural/sc_struct_normal.png" name="normTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
