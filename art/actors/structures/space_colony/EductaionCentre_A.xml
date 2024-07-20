@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<actor version="1">
+  <actor version="1">
+ <castshadow/>
   <group>
     <variant frequency="1" name="Glider-360_A">
       <mesh>structural/EductaionCentre_A.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/EductaionCentre_L.xml" attachpoint="root"/>
+       </props>
       <textures>
         <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+        <texture file="structural/sc_struct_spec.png" name="specTex"/>
+        <texture file="structural/sc_struct_normal.png" name="normTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

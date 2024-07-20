@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<actor version="1">
+  <actor version="1">
+ <castshadow/>
   <group>
     <variant frequency="1" name="concerthall_l">
       <mesh>structural/concerthall_l.dae</mesh>

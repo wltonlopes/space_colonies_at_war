@@ -3,7 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Glider-360_A">
-      <mesh>structural/SatelliteDish.dae</mesh>
+      <mesh>structural/SpyDrone_A.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/SpyDrone_L.xml" attachpoint="root"/>
+       </props>
       <textures>
         <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
         <texture file="structural/sc_struct_spec.png" name="specTex"/>

@@ -15,6 +15,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/space_colony/civic_center.xml</Actor>
+    <Actor>structures/space_colony/informationcenter.xml</Actor>
   </VisualActor>
 </Entity>

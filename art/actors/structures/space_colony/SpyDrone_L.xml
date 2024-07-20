@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Glider-360_A">
-      <mesh>structural/EductaionCentre_L.dae</mesh>
+      <mesh>structural/SpyDrone_L.dae</mesh>
       <textures>
         <texture file="structural/ligth_orange.png" name="baseTex"/>
         <texture file="structural/jev_crystal1_spec.dds" name="specTex"/>
