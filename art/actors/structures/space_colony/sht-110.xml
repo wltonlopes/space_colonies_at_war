@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <actor version="1">
+ <castshadow/>
+  <group>
+    <variant frequency="1" name="sht-110">
+      <mesh>structural/sht-110.dae</mesh>
+       <props>
+        <prop actor="structures/space_colony/sht-110_box.xml" attachpoint="root"/>
+        <prop actor="units/space_colony/driver.xml" attachpoint="root" maxheight="0.9" minheight="0.8"/>    
+       </props>
+      <textures>
+        <texture file="structural/CP_Weapons_metalic.png" name="baseTex"/>
+        <texture file="structural/sc_struct_spec.png" name="specTex"/>
+        <texture file="structural/sc_struct_normal.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

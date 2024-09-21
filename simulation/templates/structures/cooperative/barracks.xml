@@ -22,7 +22,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/space_colony/Smeltery.xml</Actor>
+    <Actor>structures/space_colony/cyberneticfactory.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

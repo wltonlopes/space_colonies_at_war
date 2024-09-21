@@ -9,7 +9,7 @@
           <X>0.0</X>
           <Y>0.5</Y>
           <Z>0.0</Z>
-          <Template>units/coalition/champion_torret_1</Template>
+          <Template>structures/turrets/anti_aircraft</Template>
           <Angle>1.54</Angle>
       <Ejectable>false</Ejectable>
       </One>

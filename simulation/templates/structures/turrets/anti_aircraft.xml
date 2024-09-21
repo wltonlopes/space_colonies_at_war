@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_robotic_turret">
+  <Identity>
+
+    <GenericName>automatic torret</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/athen/champion_ranged.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/space_colony/ads-400_gun.xml</Actor>
+  </VisualActor>
+</Entity>

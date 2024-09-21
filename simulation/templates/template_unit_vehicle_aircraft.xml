@@ -28,12 +28,16 @@
     <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
+
+  <Obstruction disable=""/>
   <Position>
+    <Altitude>28</Altitude>
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
-    <FloatDepth>0</FloatDepth>
-    <TurnRate>1.2</TurnRate>
+    <FloatDepth>10</FloatDepth>
+    <TurnRate>10</TurnRate>
   </Position>
+
   <Repairable>
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>
@@ -80,12 +84,21 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <TreasureCollector disable=""/>
+
   <UnitAI>
     <Formations disable=""/>
   </UnitAI>
   <UnitMotion>
-    <PassabilityClass>ship</PassabilityClass>
+    <WalkSpeed>12.0</WalkSpeed>
+    <PassabilityClass>unrestricted</PassabilityClass>
     <InstantTurnAngle>10</InstantTurnAngle>
-    <Acceleration op="mul">0.1</Acceleration>
+    <Acceleration op="mul">0.55</Acceleration>
   </UnitMotion>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/terran/drone.xml</Actor>
+  </VisualActor>
 </Entity>

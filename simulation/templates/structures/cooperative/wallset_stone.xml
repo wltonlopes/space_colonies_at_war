@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/coalition/wall_tower</Tower>
-      <Gate>structures/coalition/wall_gate</Gate>
-      <WallLong>structures/coalition/wall_long</WallLong>
-      <WallMedium>structures/coalition/wall_medium</WallMedium>
-      <WallShort>structures/coalition/wall_short</WallShort>
+      <Tower>structures/cooperative/wall_tower</Tower>
+      <Gate>structures/cooperative/wall_gate</Gate>
+      <WallLong>structures/cooperative/wall_long</WallLong>
+      <WallMedium>structures/cooperative/wall_medium</WallMedium>
+      <WallShort>structures/cooperative/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
